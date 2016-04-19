@@ -8,5 +8,27 @@
 *.war
 *.ear
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+
+target
+build
+dist
+.gradle
+.classpath
+.project
+.settings
+.env
+/.target
+/bin
+/logs/**
+/conf/application.user.*.conf
+
+.DS_Store
+.sass-cache
+**\.DS_Store
+.idea
+.idea_modules
+*.iml
+*.log
+/dist/
+.cache-main
+.cache-tests
