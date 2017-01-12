@@ -9,5 +9,7 @@ scalaVersion := "2.11.7"
 libraryDependencies ++= Seq(
   javaJdbc,
   cache,
-  javaWs
+  javaWs,
+  "com.github.scribejava" % "scribejava-core" % "3.4.1",
+  "com.github.scribejava" % "scribejava-apis" % "3.4.1"
 )
